@@ -32,7 +32,7 @@ export function AboutSection() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6 text-balance">Why Choose ShinExpress?</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6 text-balance">Why Choose ShinyXpress?</h2>
             <p className="text-xl text-muted-foreground mb-8 text-pretty">
               At Shinyxpress Mobile Car Wash, we believe your vehicle deserves the finest care. Our mobile detailing
               service brings professional-grade results directly to you, combining convenience with uncompromising
