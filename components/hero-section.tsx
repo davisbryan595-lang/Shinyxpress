@@ -68,7 +68,7 @@ export function HeroSection() {
 
           <div className="animate-fade-in mt-12" style={{ animationDelay: "0.6s" }}>
             <p className="text-white/80 text-lg">
-              ✨ <strong>Shine Express</strong> – Premium Care, Anytime, Anywhere.
+              ✨ <strong>Shiny Express</strong> – Premium Care, Anytime, Anywhere.
             </p>
           </div>
         </div>

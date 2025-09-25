@@ -34,7 +34,7 @@ export function AboutSection() {
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6 text-balance">Why Choose ShinExpress?</h2>
             <p className="text-xl text-muted-foreground mb-8 text-pretty">
-              At ShinExpress Mobile Car Wash, we believe your vehicle deserves the finest care. Our mobile detailing
+              At Shinyxpress Mobile Car Wash, we believe your vehicle deserves the finest care. Our mobile detailing
               service brings professional-grade results directly to you, combining convenience with uncompromising
               quality.
             </p>
