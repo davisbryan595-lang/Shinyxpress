@@ -108,10 +108,12 @@ export function ContactSection() {
               <Button
                 size="lg"
                 className="bg-accent hover:bg-accent/90 text-accent-foreground flex-1"
-                onClick={() => window.open("tel:919-904-6099")}
+                asChild
               >
-                <Phone className="w-5 h-5 mr-2" />
-                Call Now
+                <a href="tel:919-904-6099">
+                  <Phone className="w-5 h-5 mr-2" />
+                  Call Now
+                </a>
               </Button>
               <Button
                 size="lg"
