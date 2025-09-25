@@ -35,7 +35,7 @@ export function Navbar() {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
             <Image src="/images/shinylogo.png" alt="ShinExpress Logo" width={50} height={50} className="rounded-full" />
-            <div className="text-xl font-bold text-primary">ShinExpress</div>
+            <div className="hidden md:block text-xl font-bold text-primary">ShinExpress</div>
           </div>
 
           {/* Desktop Menu */}
@@ -76,9 +76,11 @@ export function Navbar() {
             >
               Contact
             </button>
-            <Button className="bg-accent hover:bg-accent/90 text-accent-foreground">
-              <Phone className="w-4 h-4 mr-2" />
-              Call Now
+            <Button className="bg-accent hover:bg-accent/90 text-accent-foreground" asChild>
+              <a href="tel:919-904-6099">
+                <Phone className="w-4 h-4 mr-2" />
+                Call Now
+              </a>
             </Button>
           </div>
 
@@ -128,9 +130,11 @@ export function Navbar() {
               >
                 Contact
               </button>
-              <Button className="bg-accent hover:bg-accent/90 text-accent-foreground w-full">
-                <Phone className="w-4 h-4 mr-2" />
-                Call Now
+              <Button className="bg-accent hover:bg-accent/90 text-accent-foreground w-full" asChild>
+                <a href="tel:919-904-6099">
+                  <Phone className="w-4 h-4 mr-2" />
+                  Call Now
+                </a>
               </Button>
             </div>
           </div>

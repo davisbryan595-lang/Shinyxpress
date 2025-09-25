@@ -94,9 +94,9 @@ export function PricingSection() {
                       ? "bg-accent hover:bg-accent/90 text-accent-foreground"
                       : "bg-primary hover:bg-primary/90 text-primary-foreground"
                   }`}
-                  onClick={() => window.open("tel:919-904-6099")}
+                  asChild
                 >
-                  Book {plan.name}
+                  <a href="tel:919-904-6099">Book {plan.name}</a>
                 </Button>
               </CardContent>
             </Card>
@@ -107,8 +107,8 @@ export function PricingSection() {
           <p className="text-muted-foreground mb-4">
             Need a custom quote? We offer specialized services for fleet vehicles and commercial accounts.
           </p>
-          <Button variant="outline" size="lg" onClick={() => window.open("tel:919-904-6099")}>
-            Get Custom Quote
+          <Button variant="outline" size="lg" asChild>
+            <a href="tel:919-904-6099">Get Custom Quote</a>
           </Button>
         </div>
       </div>
