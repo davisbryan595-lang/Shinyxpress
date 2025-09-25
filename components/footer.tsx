@@ -25,7 +25,7 @@ export function Footer() {
                 height={40}
                 className="rounded-full"
               />
-              <div className="text-xl font-bold">ShinExpress</div>
+              <div className="text-xl font-bold">ShinyXpress</div>
             </div>
             <p className="text-primary-foreground/80 mb-4 text-pretty">
               Premium mobile car detailing services in Hamilton, Ohio. We bring professional-grade car care directly to
