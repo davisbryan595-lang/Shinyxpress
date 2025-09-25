@@ -49,10 +49,12 @@ export function HeroSection() {
             <Button
               size="lg"
               className="bg-accent hover:bg-accent/90 text-accent-foreground px-8 py-6 text-lg"
-              onClick={() => window.open("tel:919-904-6099")}
+              asChild
             >
-              <Phone className="w-5 h-5 mr-2" />
-              Call Now: (919) 904-6099
+              <a href="tel:919-904-6099">
+                <Phone className="w-5 h-5 mr-2" />
+                Call Now: (919) 904-6099
+              </a>
             </Button>
             <Button
               size="lg"

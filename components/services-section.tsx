@@ -81,9 +81,9 @@ export function ServicesSection() {
           <Button
             size="lg"
             className="bg-accent hover:bg-accent/90 text-accent-foreground px-8 py-6"
-            onClick={() => window.open("tel:919-904-6099")}
+            asChild
           >
-            Book Your Service Today
+            <a href="tel:919-904-6099">Book Your Service Today</a>
           </Button>
         </div>
       </div>
